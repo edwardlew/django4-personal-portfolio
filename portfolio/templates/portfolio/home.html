@@ -9,7 +9,14 @@
     <a href="{% static 'portfolio/resume.pdf' %}">Resume</a>
     <br>
     <img src="{% static 'portfolio/picture.jpg' %}" width=400 height=450>
-    <br> <br>
+    <br> 
+    <div class="row justify-content-center mb-3"> 
+      <div class="col-md=9 text-center"> 
+        <h1 id="hometext" class="font-weight-bold">Ed creating excellent code for Django! ⚙️</h1>
+
+      </div>
+    </div>
+    <br>
     {% for project in projects %}  
     <div class="container">
         <div class="row">
